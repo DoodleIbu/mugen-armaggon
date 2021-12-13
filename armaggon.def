@@ -1,0 +1,39 @@
+; Player information
+[Info]
+name = "Armaggon"
+displayname = "Armaggon"
+versiondate = 08,08,2013
+mugenversion = 1.0
+author = "Coloness"
+pal.defaults = 1,2,3,4
+localcoord = 320,240
+
+; Files for the player
+[Files]
+cmd     = armaggon.cmd
+cns     = States/armaggon.cns
+stcommon = common1.cns
+st      = States/armaggon.cns
+st1 = States/override.st
+st2 = States/st-2.st
+st3 = States/st-3.st
+sprite  = armaggon.sff
+anim    = armaggon.air
+sound   = armaggon.snd
+pal1    = Palettes/snes.act
+pal2    = Palettes/snes2p.act
+pal3    = Palettes/gray.act
+pal4    = Palettes/purple.act
+pal5    = Palettes/brown.act
+pal6    = Palettes/violet.act
+pal7    = Palettes/green.act
+pal8    = Palettes/lighter.act
+
+; Maps character selection buttons to palette numbers.
+[Palette Keymap]
+x = 1
+y = 2
+z = 3
+a = 4
+b = 5
+c = 6
