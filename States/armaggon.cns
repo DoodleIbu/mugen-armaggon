@@ -1862,7 +1862,7 @@ type = HitDef
 trigger1 = Time >= 0
 attr = S, SP
 animtype = Hard
-damage = floor(100 * root,fvar(1)), 20
+damage = floor(100 * root,fvar(1)), 25
 guardflag = M
 pausetime = 0,11
 sparkno = -1 + 0 * (var(5) := 7100)
@@ -1994,7 +1994,7 @@ type = HitDef
 trigger1 = Time >= 0
 attr = S, SP
 animtype = Hard
-damage = floor(80 * root,fvar(1)), 16
+damage = floor(80 * root,fvar(1)), 20
 guardflag = M
 pausetime = 4 * (var(0) = 1),11
 sparkno = -1 + 0 * (var(5) := 7100)
@@ -2150,7 +2150,7 @@ trigger1 = (var(40) := 1200 || 1) ;ID
 trigger1 = (var(10) - var(11) >= 0) && (var(40) != var(41))
 attr = C, SA
 animtype = Hard
-damage = floor(120 * fvar(1)), 24
+damage = floor(120 * fvar(1)), 30
 guardflag = M
 pausetime = 11,11
 sparkno = -1 + 0 * (var(5) := 7100)
@@ -2184,7 +2184,7 @@ trigger1 = (var(10) - var(11) >= 0) && (var(40) != var(41))
 trigger1 = !MoveContact
 attr = A, SA
 animtype = Hard
-damage = floor(80 * fvar(1)), 16
+damage = floor(80 * fvar(1)), 20
 guardflag = M
 pausetime = 11,11
 sparkno = -1 + 0 * (var(5) := 7100)
@@ -2281,7 +2281,7 @@ trigger1 = (var(40) := 1205 || 1) ;ID
 trigger1 = (var(10) - var(11) >= 0) && (var(40) != var(41))
 attr = C, SA
 animtype = Hard
-damage = floor(100 * fvar(1)), 20
+damage = floor(100 * fvar(1)), 25
 guardflag = M
 pausetime = 11,11
 sparkno = -1 + 0 * (var(5) := 7100)
@@ -2314,7 +2314,7 @@ trigger1 = (var(40) := 1206 || 1) ;ID
 trigger1 = (var(10) - var(11) >= 0) && (var(40) != var(41))
 attr = A, SA
 animtype = Hard
-damage = floor(80 * fvar(1)), 16
+damage = floor(80 * fvar(1)), 20
 guardflag = M
 pausetime = 11,11
 sparkno = -1 + 0 * (var(5) := 7100)
@@ -2431,7 +2431,7 @@ trigger1 = (var(40) := 1210 || 1) ;ID
 trigger1 = (var(10) - var(11) >= 0) && (var(40) != var(41))
 attr = C, SA
 animtype = Hard
-damage = floor(150 * fvar(1)), 30
+damage = floor(150 * fvar(1)), 37
 guardflag = M
 pausetime = 11,11
 sparkno = -1 + 0 * (var(5) := 7100)
@@ -2464,7 +2464,7 @@ trigger1 = (var(40) := 1211 || 1) ;ID
 trigger1 = (var(10) - var(11) >= 0) && (var(40) != var(41))
 attr = A, SA
 animtype = Hard
-damage = floor(120 * fvar(1)), 24
+damage = floor(120 * fvar(1)), 30
 guardflag = M
 pausetime = 11,11
 sparkno = -1 + 0 * (var(5) := 7100)
@@ -2636,7 +2636,7 @@ trigger1 = (var(40) := 2000 || 1) ;ID
 trigger1 = (var(10) - var(11) >= 0) && (var(40) != var(41))
 attr = A, HA
 animtype = Hard
-damage = floor(250 * fvar(1)), 50
+damage = floor(250 * fvar(1)), 62
 guardflag = M
 pausetime = 15,15
 sparkno = -1 + 0 * (var(5) := 7100)
@@ -2772,7 +2772,7 @@ ignorehitpause = 1
 type = HitDef
 trigger1 = Time >= 0 && !MoveContact && !MoveReversed
 attr = S, HP
-damage = floor(180 * root,fvar(1)), 36
+damage = floor(180 * root,fvar(1)), 45
 guardflag = M
 animtype = Hard
 pausetime = 2,15

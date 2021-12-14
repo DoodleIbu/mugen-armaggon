@@ -41,5 +41,8 @@ Throws can be teched out of using b/f + C/D.
 ## TODOs
 
 - Balance changes
+- Look into some unimplemented mechanics
+  - Trip guard (or the lack thereof)
+  - Guaranteed throw punishes
 - Rip TMNT:TF hit and guard sparks and replace the current ones
 - Clean up juggle code
