@@ -402,14 +402,14 @@ sprpriority = 2
 
 [State 230]
 type = PlaySnd
-trigger1 = Time = 3
+trigger1 = Time = 6
 value = S4,1
 channel = 1
 
 [State 230]
 type = PosAdd
-trigger1 = AnimElem = 1 || AnimElem = 4
-x = 7
+trigger1 = AnimElem = 2 || AnimElem = 4
+x = 12
 
 [State 230]
 type = HitDef
