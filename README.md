@@ -36,9 +36,7 @@ Throws can be teched out of using b/f + C/D.
 
 ## Additional notes
 
-- Counter hits do additional damage and hitstun. They also cause a single-hit
-  juggle state if the opponent is launched in the air. This is required for
-  getting full damage out of Armaggon's super.
+- Counter hits do additional damage and hitstun. They also cause a single-hit juggle state if the opponent is launched in the air. This is required for getting full damage out of Armaggon's super.
 
 ## TODOs
 
