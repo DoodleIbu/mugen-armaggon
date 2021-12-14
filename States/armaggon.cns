@@ -402,7 +402,7 @@ sprpriority = 2
 
 [State 230]
 type = PlaySnd
-trigger1 = Time = 6
+trigger1 = Time = 5
 value = S4,1
 channel = 1
 
