@@ -1523,7 +1523,7 @@ sinadd = -255, -255, -255, 32
 
 [State 900]
 type = PlaySnd
-trigger1 = Time = 5
+trigger1 = Time = 11
 value = S4,3
 channel = 1
 
