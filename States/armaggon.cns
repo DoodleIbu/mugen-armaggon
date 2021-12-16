@@ -238,8 +238,8 @@ guard.velocity = -4.8
 air.type = High
 air.velocity = -2.0,-4.0
 air.hittime = 16383
-getpower = 50, 25
-givepower = 25, 25
+getpower = 75, 37
+givepower = 37, 18
 forcenofall = 1
 
 [State 200]
@@ -297,8 +297,8 @@ guard.velocity = -6.0
 air.type = High
 air.velocity = -3.0, -5.0
 air.hittime = 16383
-getpower = 120, 60
-givepower = 60, 60
+getpower = 180, 90
+givepower = 90, 45
 forcenofall = 1
 
 [State 210]
@@ -373,8 +373,8 @@ guard.velocity = -5.0
 air.type = High
 air.velocity = -3.0, -5.0
 air.hittime = 16383
-getpower = 80, 40
-givepower = 40, 40
+getpower = 120, 60
+givepower = 60, 30
 forcenofall = 1
 
 [State 215]
@@ -438,8 +438,8 @@ air.type = High
 air.velocity = -2.0,-4.0
 air.hittime = 16383
 forcenofall = 1
-getpower = 50, 25
-givepower = 25, 25
+getpower = 75, 37
+givepower = 37, 18
 
 [State 230]
 type = StateTypeSet
@@ -476,7 +476,7 @@ trigger1 = AnimElemTime(3) >= 0 && AnimElemTime(4) < 0
 trigger1 = (var(40) := 235 || 1) ;ID
 trigger1 = (var(10) - var(11) >= 0) && (var(40) != var(41))
 attr = S, NA
-damage = floor(60 * fvar(1))
+damage = floor(80 * fvar(1))
 animtype = Hard
 guardflag = L
 pausetime = 11,11
@@ -496,8 +496,8 @@ guard.velocity = -4.2
 air.type = Low
 air.velocity = -2.0,-4.0
 air.hittime = 16383
-getpower = 60, 30
-givepower = 30, 30
+getpower = 120, 60
+givepower = 60, 30
 forcenofall = 1
 
 [State 235]
@@ -572,8 +572,8 @@ guard.velocity = -6.0
 air.type = High
 air.velocity = -3.0, -5.0
 air.hittime = 16383
-getpower = 100, 50
-givepower = 50, 50
+getpower = 150, 75
+givepower = 75, 37
 forcenofall = 1
 
 [State 240]
@@ -630,8 +630,8 @@ guard.velocity = -4.8
 air.type = High
 air.velocity = -2.0,-4.0
 air.hittime = 16383
-getpower = 40, 20
-givepower = 20, 20
+getpower = 60, 30
+givepower = 30, 15
 forcenofall = 1
 
 [State 400]
@@ -688,8 +688,8 @@ guard.velocity = -6.0
 air.type = High
 air.velocity = -3.0, -5.0
 air.hittime = 16383
-getpower = 100, 50
-givepower = 50, 50
+getpower = 150, 75
+givepower = 75, 37
 
 [State 410]
 type = StateTypeSet
@@ -745,8 +745,8 @@ guard.velocity = -4.8
 air.type = Low
 air.velocity = -2.0,-4.0
 air.hittime = 16383
-getpower = 40, 20
-givepower = 20, 20
+getpower = 60, 30
+givepower = 30, 15
 forcenofall = 1
 
 [State 430]
@@ -799,8 +799,8 @@ air.velocity = -1.5,-4.0
 guard.velocity = -6.0
 guard.hittime = 16
 guard.slidetime = 16
-getpower = 100, 50
-givepower = 50, 50
+getpower = 150, 75
+givepower = 75, 37
 fall = 1
 fall.recover = 0
 
@@ -858,8 +858,8 @@ guard.velocity = -3.5
 air.type = High
 air.velocity = -2.0,-4.0
 air.hittime = 16383
-getpower = 60, 30
-givepower = 30, 30
+getpower = 90, 45
+givepower = 45, 22
 forcenofall = 1
 
 [State 600]
@@ -910,8 +910,8 @@ guard.velocity = -3.5
 air.type = High
 air.velocity = -2.0,-4.0
 air.hittime = 16383
-getpower = 60, 30
-givepower = 30, 30
+getpower = 90, 45
+givepower = 45, 22
 forcenofall = 1
 
 [State 605]
@@ -962,8 +962,8 @@ guard.velocity = -4.2
 air.type = High
 air.velocity = -3.0, -5.0
 air.hittime = 16383
-getpower = 120, 60
-givepower = 60, 60
+getpower = 180, 90
+givepower = 90, 45
 forcenofall = 1
 
 [State 610]
@@ -1014,8 +1014,8 @@ guard.velocity = -3.5
 air.type = High
 air.velocity = -2.0,-4.0
 air.hittime = 16383
-getpower = 60, 30
-givepower = 30, 30
+getpower = 90, 45
+givepower = 45, 22
 forcenofall = 1
 
 [State 630]
@@ -1066,8 +1066,8 @@ guard.velocity = -4.2
 air.type = High
 air.velocity = -3.0, -5.0
 air.hittime = 16383
-getpower = 100, 50
-givepower = 50, 50
+getpower = 150, 75
+givepower = 75, 37
 forcenofall = 1
 
 [State 640]
@@ -1135,12 +1135,12 @@ value = 806
 [State 800, TargetPowerAdd]
 type = TargetPowerAdd
 trigger1 = AnimElem = 4
-value = 75
+value = 112
 
 [State 800, PowerAdd]
 type = PowerAdd
 trigger1 = AnimElem = 4
-value = 150
+value = 225
 
 [State 800]
 type = EnvShake
@@ -1329,12 +1329,12 @@ value = 816
 [State 810, TargetPowerAdd]
 type = TargetPowerAdd
 trigger1 = AnimElem = 3
-value = 60
+value = 90
 
 [State 810, PowerAdd]
 type = PowerAdd
 trigger1 = AnimElem = 3
-value = 120
+value = 180
 
 [State 810]
 type = ChangeState
@@ -1553,7 +1553,7 @@ guard.velocity = -6.0
 air.type = High
 air.velocity = -5.0, -5.0
 getpower = 0, 0
-givepower = 50, 50
+givepower = 0, 0
 fall = 1
 fall.recover = 0
 
@@ -1631,8 +1631,8 @@ air.velocity = -3.0, -5.0
 air.hittime = 16383
 air.fall = 1
 fall.recover = 0
-getpower = 80, 40
-givepower = 40, 40
+getpower = 120, 60
+givepower = 60, 30
 
 [State 1000]
 type = ChangeState
@@ -1642,10 +1642,10 @@ value = 52
 ;---------------------------------------------------------------------------
 ; Cyclone Wave A
 [Statedef 1100]
-type    = S
-movetype= A
-physics = S
-poweradd= 50
+type     = S
+movetype = A
+physics  = S
+poweradd = 50
 ctrl = 0
 anim = 1100
 sprpriority = 2
@@ -1884,7 +1884,7 @@ air.hittime = 16383
 air.fall = 1
 fall.recover = 0
 getpower = 100, 50
-givepower = 50, 50
+givepower = 50, 25
 envshake.time = 8
 envshake.ampl = 4
 
@@ -2014,7 +2014,7 @@ air.type = High
 air.velocity = -3.0, -5.0
 air.hittime = 16383
 getpower = 0, 0
-givepower = 40, 40
+givepower = 40, 20
 fall = 1
 fall.recover = 0
 envshake.time = 8
@@ -2170,7 +2170,7 @@ air.type = High
 air.velocity = -5.0, -5.5
 air.hittime = 16383
 getpower = 120, 60
-givepower = 60, 60
+givepower = 60, 30
 fall = 1
 fall.recover = 0
 envshake.time = 8
@@ -2301,7 +2301,7 @@ air.type = High
 air.velocity = -2.0, -6.0
 air.hittime = 16383
 getpower = 100, 50
-givepower = 50, 50
+givepower = 50, 25
 fall = 1
 fall.recover = 0
 envshake.time = 8
@@ -2334,7 +2334,7 @@ air.type = High
 air.velocity = -4.0, -6.0
 air.hittime = 16383
 getpower = 80, 40
-givepower = 40, 40
+givepower = 40, 20
 fall = 1
 fall.recover = 0
 envshake.time = 8
@@ -2451,7 +2451,7 @@ air.type = High
 air.velocity = -1.0, -6.0
 air.hittime = 16383
 getpower = 0, 0
-givepower = 75, 75
+givepower = 75, 37
 fall = 1
 fall.recover = 0
 envshake.time = 8
@@ -2484,7 +2484,7 @@ air.type = High
 air.velocity = -4.0, -6.0
 air.hittime = 16383
 getpower = 0, 0
-givepower = 60, 60
+givepower = 60, 30
 fall = 1
 fall.recover = 0
 envshake.time = 8
@@ -2656,7 +2656,7 @@ air.type = High
 air.velocity = -4.0, -8.0
 air.hittime = 16383
 getpower = 0, 0
-givepower = 150, 150
+givepower = 125, 67
 fall = 1
 fall.recover = 0
 envshake.time = 15
@@ -2793,7 +2793,7 @@ air.type = High
 air.velocity = -8.0, -5.0
 air.hittime = 16383
 getpower = 0, 0
-givepower = 100, 100
+givepower = 90, 45
 fall = 1
 fall.recover = 0
 envshake.time = 15
