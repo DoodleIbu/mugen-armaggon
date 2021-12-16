@@ -2772,7 +2772,7 @@ ignorehitpause = 1
 type = HitDef
 trigger1 = Time >= 0 && !MoveContact && !MoveReversed
 attr = S, HP
-damage = floor(150 * root,fvar(1)), 37
+damage = floor(180 * root,fvar(1)), 45
 guardflag = M
 animtype = Hard
 pausetime = 2,15
@@ -2793,7 +2793,7 @@ air.type = High
 air.velocity = -8.0, -5.0
 air.hittime = 16383
 getpower = 0, 0
-givepower = 75, 37
+givepower = 90, 45
 fall = 1
 fall.recover = 0
 envshake.time = 15

@@ -40,7 +40,7 @@ Throws can be teched out of using b/f + C/D.
 
 ## TODOs
 
-- Balance changes
+- Fixing projectile sound when it gets nullified by other projectiles
 - Look into some unimplemented mechanics
   - Trip guard (or the lack thereof)
   - Guaranteed throw punishes
