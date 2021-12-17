@@ -1562,12 +1562,6 @@ fall = 1
 fall.recover = 0
 
 [State 900]
-type = StateTypeSet
-trigger1 = AnimElemTime(4) >= 0
-movetype = I
-persistent = 0
-
-[State 900]
 type = ChangeState
 trigger1 = AnimTime = 0
 value = 0
@@ -1633,12 +1627,6 @@ getpower = 0, 0
 givepower = 0, 0
 fall = 1
 fall.recover = 0
-
-[State 910]
-type = StateTypeSet
-trigger1 = AnimElemTime(4) >= 0
-movetype = I
-persistent = 0
 
 [State 910]
 type = ChangeState

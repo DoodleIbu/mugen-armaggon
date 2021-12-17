@@ -40,9 +40,11 @@ Throws can be teched out of using b/f + C/D.
 
 ## TODOs
 
-- Fixing projectile sound when it gets nullified by other projectiles
+- Random balance changes here and there
+  - Review CH state on moves
 - Look into some unimplemented mechanics
   - Trip guard (or the lack thereof)
   - Guaranteed throw punishes
+- Fixing projectile sound when it gets nullified by other projectiles
 - Rip TMNT:TF hit and guard sparks and replace the current ones
 - Clean up juggle code
