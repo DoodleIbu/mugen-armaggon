@@ -2188,41 +2188,46 @@ poweradd = 50
 
 [State 1200]
 type = PlaySnd
-trigger1 = Time = 2
+trigger1 = Time = 4
 value = S4,2
 channel = 1
 
 [State 1200]
 type = PosAdd
-trigger1 = AnimElemTime(3) < 0
-x = 8
+trigger1 = AnimElemTime(2) = 0
+x = 25
 
 [State 1200]
 type = PosAdd
 trigger1 = AnimElemTime(3) = 0
 x = 25
 
+[State 1200]
+type = PosAdd
+trigger1 = AnimElemTime(4) = 0
+x = 30
+
 ; Sail up into the air.
 [State 1200]
 type = StateTypeSet
-trigger1 = AnimElemTime(3) = 0
+trigger1 = AnimElemTime(4) = 0
 statetype = A
 physics = N
 
 [State 1200]
 type = VelSet
-trigger1 = AnimElemTime(3) = 0
+trigger1 = AnimElemTime(4) = 0
 x = 3
 y = -9
 
 [State 1200]
 type = Gravity
-trigger1 = AnimElemTime(3) >= 0
+trigger1 = AnimElemTime(4) >= 0
 
 ; Hitdefs
 [State 1200]
 type = HitDef
-trigger1 = AnimElemTime(2) >= 0 && AnimElemTime(3) < 0
+trigger1 = AnimElemTime(3) >= 0 && AnimElemTime(4) < 0
 trigger1 = (var(40) := 1200 || 1) ;ID
 trigger1 = (var(10) - var(11) >= 0) && (var(40) != var(41))
 attr = C, SA
@@ -2255,7 +2260,7 @@ envshake.ampl = 4
 
 [State 1200]
 type = HitDef
-trigger1 = AnimElemTime(3) >= 0 && AnimElemTime(4) < 0
+trigger1 = AnimElemTime(4) >= 0 && AnimElemTime(5) < 0
 trigger1 = (var(40) := 1200 || 1) ;ID
 trigger1 = (var(10) - var(11) >= 0) && (var(40) != var(41))
 trigger1 = !MoveContact
@@ -2289,7 +2294,7 @@ envshake.ampl = 4
 
 [State 1200]
 type = StateTypeSet
-trigger1 = AnimElemTime(4) >= 0
+trigger1 = AnimElemTime(5) >= 0
 movetype = I
 persistent = 0
 
@@ -2312,48 +2317,48 @@ poweradd = 50
 
 [State 1205]
 type = PlaySnd
-trigger1 = Time = 6
+trigger1 = Time = 8
 value = S4,2
 channel = 1
 
 [State 1205]
 type = NotHitBy
-trigger1 = AnimElemTime(4) <= 0
+trigger1 = AnimElemTime(3) <= 0
 value = SCA
 time = 1
 ignorehitpause = 1
 
-[State 1205]
+[State 1210]
 type = PosAdd
-trigger1 = AnimElemTime(3) >= 0 && AnimElemTime(5) < 0
-x = 5
+trigger1 = AnimElemTime(3) = 0
+x = 20
 
 [State 1205]
 type = PosAdd
-trigger1 = AnimElemTime(5) = 0
+trigger1 = AnimElemTime(4) = 0
 x = 25
 
 ; Sail up into the air.
 [State 1205]
 type = StateTypeSet
-trigger1 = AnimElemTime(5) = 0
+trigger1 = AnimElemTime(4) = 0
 statetype = A
 physics = N
 
 [State 1205]
 type = VelSet
-trigger1 = AnimElemTime(5) = 0
+trigger1 = AnimElemTime(4) = 0
 x = 2
 y = -12
 
 [State 1205]
 type = Gravity
-trigger1 = AnimElemTime(5) >= 0
+trigger1 = AnimElemTime(4) >= 0
 
 ; Hitdefs
 [State 1205]
 type = HitDef
-trigger1 = AnimElemTime(4) >= 0 && AnimElemTime(5) < 0
+trigger1 = AnimElemTime(3) >= 0 && AnimElemTime(4) < 0
 trigger1 = (var(40) := 1205 || 1) ;ID
 trigger1 = (var(10) - var(11) >= 0) && (var(40) != var(41))
 attr = C, SA
@@ -2386,7 +2391,7 @@ envshake.ampl = 4
 
 [State 1205]
 type = HitDef
-trigger1 = AnimElemTime(5) >= 0 && AnimElemTime(6) < 0
+trigger1 = AnimElemTime(4) >= 0 && AnimElemTime(5) < 0
 trigger1 = (var(40) := 1206 || 1) ;ID
 trigger1 = (var(10) - var(11) >= 0) && (var(40) != var(41))
 attr = A, SA
@@ -2419,7 +2424,7 @@ envshake.ampl = 4
 
 [State 1205]
 type = StateTypeSet
-trigger1 = AnimElemTime(6) >= 0
+trigger1 = AnimElemTime(5) >= 0
 movetype = I
 persistent = 0
 
@@ -2442,7 +2447,7 @@ poweradd = -1000
 
 [State 1210]
 type = PlaySnd
-trigger1 = Time = 2
+trigger1 = Time = 6
 value = S4,2
 channel = 1
 
@@ -2472,38 +2477,43 @@ add = 32,16,0
 sinadd = 64,32,5,3
 
 [State 1210]
+type = PosAdd
+trigger1 = AnimElemTime(3) = 0
+x = 15
+
+[State 1210]
 type = NotHitBy
-trigger1 = AnimElemTime(3) <= 0
+trigger1 = AnimElemTime(4) <= 0
 value = SCA
 time = 1
 ignorehitpause = 1
 
 [State 1210]
 type = PosAdd
-trigger1 = AnimElemTime(3) = 0
-x = 25
+trigger1 = AnimElemTime(4) = 0
+x = 20
 
 ; Sail up into the air.
 [State 1210]
 type = StateTypeSet
-trigger1 = AnimElemTime(3) = 0
+trigger1 = AnimElemTime(4) = 0
 statetype = A
 physics = N
 
 [State 1210]
 type = VelSet
-trigger1 = AnimElemTime(3) = 0
+trigger1 = AnimElemTime(4) = 0
 x = 1
 y = -13
 
 [State 1210]
 type = Gravity
-trigger1 = AnimElemTime(3) >= 0
+trigger1 = AnimElemTime(4) >= 0
 
 ; Hitdefs
 [State 1210]
 type = HitDef
-trigger1 = AnimElemTime(2) >= 0 && AnimElemTime(3) < 0
+trigger1 = AnimElemTime(3) >= 0 && AnimElemTime(4) < 0
 trigger1 = (var(40) := 1210 || 1) ;ID
 trigger1 = (var(10) - var(11) >= 0) && (var(40) != var(41))
 attr = C, SA
@@ -2536,7 +2546,7 @@ envshake.ampl = 4
 
 [State 1210]
 type = HitDef
-trigger1 = AnimElemTime(3) >= 0 && AnimElemTime(4) < 0
+trigger1 = AnimElemTime(4) >= 0 && AnimElemTime(5) < 0
 trigger1 = (var(40) := 1211 || 1) ;ID
 trigger1 = (var(10) - var(11) >= 0) && (var(40) != var(41))
 attr = A, SA
@@ -2569,7 +2579,7 @@ envshake.ampl = 4
 
 [State 1210]
 type = StateTypeSet
-trigger1 = AnimElemTime(4) >= 0
+trigger1 = AnimElemTime(5) >= 0
 movetype = I
 persistent = 0
 
