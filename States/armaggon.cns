@@ -1497,7 +1497,7 @@ value = 0
 ctrl = 1
 
 ;---------------------------------------------------------------------------
-; Blowback attack
+; Guard cancel
 [Statedef 900]
 type    = S
 movetype= A
@@ -1564,6 +1564,79 @@ movetype = I
 persistent = 0
 
 [State 900]
+type = ChangeState
+trigger1 = AnimTime = 0
+value = 0
+ctrl = 1
+
+;---------------------------------------------------------------------------
+; Blowback attack
+[Statedef 910]
+type    = S
+movetype= A
+physics = S
+poweradd = -1000
+ctrl = 0
+velset = 0,0
+anim = 910
+sprpriority = 2
+
+[State 910, NotHitBy]
+type = NotHitBy
+trigger1 = AnimElemTime(4) <= 0
+value = SCA,NA,SA,HA,NP,SP,HP,NT,ST,HT
+time = 1
+
+[State 910, PalFX]
+type = PalFX
+trigger1 = Time = 0 
+time = 4
+add = 255, 255, 255
+sinadd = -255, -255, -255, 32
+
+[State 910]
+type = PlaySnd
+trigger1 = Time = 1
+value = S4,3
+channel = 1
+
+[State 910]
+type = HitDef
+trigger1 = AnimElemTime(3) >= 0 && AnimElemTime(4) < 0
+trigger1 = (var(40) := 910 || 1) ;ID
+trigger1 = (var(10) - var(11) >= 0) && (var(40) != var(41))
+attr = S, NA
+animtype  = Hard
+damage    = 0
+guardflag = M
+pausetime = 11,11
+sparkno = -1 + 0 * (var(5) := 7101)
+guard.sparkno = -1 + 0 * (var(6) := 7201)
+sparkxy = 0 * (var(7) := 46), 0 * (var(8) := -85)
+hitsound   = S5,3
+guardsound = S6,0
+ground.type = High
+ground.slidetime = 18 + var(12) * 3
+ground.hittime  = 18 + var(12) * 3
+ground.velocity = -5.0, -5.0
+ground.cornerpush.veloff = 0
+guard.slidetime = 16
+guard.hittime = 16
+guard.velocity = -6.0
+air.type = High
+air.velocity = -5.0, -5.0
+getpower = 0, 0
+givepower = 0, 0
+fall = 1
+fall.recover = 0
+
+[State 910]
+type = StateTypeSet
+trigger1 = AnimElemTime(4) >= 0
+movetype = I
+persistent = 0
+
+[State 910]
 type = ChangeState
 trigger1 = AnimTime = 0
 value = 0

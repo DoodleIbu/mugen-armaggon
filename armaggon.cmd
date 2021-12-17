@@ -248,7 +248,7 @@ triggerall = power >= 2000
 trigger1 = ctrl
 
 ;---------------------------------------------------------------------------
-; Blowback attack
+; Guard cancel
 [State -1]
 type = ChangeState
 value = 900
@@ -256,6 +256,16 @@ triggerall = command = "blowback" || var(20) = 900
 triggerall = statetype != A
 triggerall = power >= 1000
 trigger1 = stateno = [150,153]
+
+;---------------------------------------------------------------------------
+; Blowback attack
+[State -1]
+type = ChangeState
+value = 910
+triggerall = command = "blowback" || var(20) = 900
+triggerall = statetype != A
+triggerall = power >= 1000
+trigger1 = ctrl
 
 ;---------------------------------------------------------------------------
 ; Yuuei Zutsuki
