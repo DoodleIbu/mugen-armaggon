@@ -30,8 +30,8 @@ Throws can be teched out of using b/f + C/D.
 - C+D: Big Wave (costs 2000 power)
 
 ### Other
-- A+B: Guard cancel (costs 1000 power)
-  - An invincible attack that launches the opponent away but deals no damage. Can only be performed while blocking.
+- A+B: Blowback attack (costs 1000 power)
+  - A quick invincible attack that launches the opponent away but deals no damage. Can be done while in blockstun, but starts up slower if done in blockstun.
 - Start: Taunt
 
 ## Additional notes
