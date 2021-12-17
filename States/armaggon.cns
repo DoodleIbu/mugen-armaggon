@@ -354,7 +354,7 @@ trigger1 = (var(40) := 215 || 1) ;ID
 trigger1 = (var(10) - var(11) >= 0) && (var(40) != var(41))
 attr = S, NA
 animtype = Hard
-damage = floor(80 * fvar(1))
+damage = floor(100 * fvar(1))
 guardflag = M
 pausetime = 11,11
 sparkno = -1 + 0 * (var(5) := 7101)
@@ -373,8 +373,8 @@ guard.velocity = -5.0
 air.type = High
 air.velocity = -3.0, -5.0
 air.hittime = 16383
-getpower = 120, 60
-givepower = 60, 30
+getpower = 150, 75
+givepower = 75, 37
 forcenofall = 1
 
 [State 215]
