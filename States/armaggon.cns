@@ -2052,7 +2052,7 @@ ignorehitpause = 1
 [State 1160]
 type = VelSet
 trigger1 = 1 
-x = ifelse(Time < 2 && var(0) = 2, 1, 8)
+x = ifelse(Time < 2 && var(0) = 2, 1, 7.5)
 
 [State 1160]
 type = HitDef
