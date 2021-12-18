@@ -1817,13 +1817,13 @@ velset = 0,0
 
 [State 1110, BUWAH]
 type = PlaySnd
-trigger1 = Time = 7
+trigger1 = Time = 6
 value = S0,0
 channel = 0
 
 [State 1110]
 type = PlaySnd
-trigger1 = Time = 7
+trigger1 = Time = 6
 value = S1100,0
 channel = 1
 
@@ -1920,7 +1920,7 @@ ignorehitpause = 1
 [State 1150]
 type = VelSet
 trigger1 = Time = 0 
-x = ifelse(root,stateno = 1100, 4.2, 6)
+x = ifelse(root,stateno = 1100, 4.5, 6)
 
 [State 1150]
 type = HitDef
@@ -1936,8 +1936,8 @@ sparkxy = 0 * (var(7) := 10), 0 * (var(8) := -18)
 hitsound   = S5,2
 guardsound = S6,2
 ground.type = High
-ground.slidetime = 20 + root,var(12) * 3
-ground.hittime  = 20 + root,var(12) * 3
+ground.slidetime = 18 + root,var(12) * 3
+ground.hittime  = 18 + root,var(12) * 3
 ground.velocity = -5.5
 ground.cornerpush.veloff = 0
 guard.slidetime = 16
@@ -2068,8 +2068,8 @@ sparkxy = 0 * (var(7) := 10), 0 * (var(8) := -18)
 hitsound   = S5,2
 guardsound = S6,2
 ground.type = High
-ground.slidetime = 20 + root,var(12) * 3
-ground.hittime  = 20 + root,var(12) * 3
+ground.slidetime = 18 + root,var(12) * 3
+ground.hittime  = 18 + root,var(12) * 3
 ground.velocity = -5.5
 ground.cornerpush.veloff = 0
 guard.slidetime = 16
@@ -2229,8 +2229,8 @@ sparkxy = 0 * (var(7) := 15), 0 * (var(8) := -60)
 hitsound   = S5,2
 guardsound = S6,0
 ground.type = High
-ground.slidetime = 20 + var(12) * 3
-ground.hittime  = 20 + var(12) * 3
+ground.slidetime = 18 + var(12) * 3
+ground.hittime  = 18 + var(12) * 3
 ground.velocity = -5.0, -5.5
 ground.cornerpush.veloff = 0
 guard.slidetime = 16
@@ -2263,8 +2263,8 @@ sparkxy = 0 * (var(7) := -10), 0 * (var(8) := -105)
 hitsound   = S5,2
 guardsound = S6,0
 ground.type = High
-ground.slidetime = 20 + var(12) * 3
-ground.hittime  = 20 + var(12) * 3
+ground.slidetime = 18 + var(12) * 3
+ground.hittime  = 18 + var(12) * 3
 ground.velocity = -5.0, -5.5
 ground.cornerpush.veloff = 0
 guard.slidetime = 16
@@ -2354,8 +2354,8 @@ sparkxy = 0 * (var(7) := 15), 0 * (var(8) := -60)
 hitsound   = S5,2
 guardsound = S6,0
 ground.type = High
-ground.slidetime = 20 + var(12) * 3
-ground.hittime  = 20 + var(12) * 3
+ground.slidetime = 18 + var(12) * 3
+ground.hittime  = 18 + var(12) * 3
 ground.velocity = -2.0, -6.0
 ground.cornerpush.veloff = 0
 guard.slidetime = 16
@@ -2387,8 +2387,8 @@ sparkxy = 0 * (var(7) := -10), 0 * (var(8) := -105)
 hitsound   = S5,2
 guardsound = S6,0
 ground.type = High
-ground.slidetime = 20 + var(12) * 3
-ground.hittime  = 20 + var(12) * 3
+ground.slidetime = 18 + var(12) * 3
+ground.hittime  = 18 + var(12) * 3
 ground.velocity = -4.0, -6.0
 ground.cornerpush.veloff = 0
 guard.slidetime = 16
@@ -2503,8 +2503,8 @@ sparkxy = 0 * (var(7) := 15), 0 * (var(8) := -60)
 hitsound   = S5,2
 guardsound = S6,0
 ground.type = High
-ground.slidetime = 20 + var(12) * 3
-ground.hittime  = 20 + var(12) * 3
+ground.slidetime = 18 + var(12) * 3
+ground.hittime  = 18 + var(12) * 3
 ground.velocity = -1.0, -6.0
 ground.cornerpush.veloff = 0
 guard.slidetime = 16
@@ -2536,8 +2536,8 @@ sparkxy = 0 * (var(7) := -10), 0 * (var(8) := -105)
 hitsound   = S5,2
 guardsound = S6,0
 ground.type = High
-ground.slidetime = 20 + var(12) * 3
-ground.hittime  = 20 + var(12) * 3
+ground.slidetime = 18 + var(12) * 3
+ground.hittime  = 18 + var(12) * 3
 ground.velocity = -4.0, -6.0
 ground.cornerpush.veloff = 0
 guard.slidetime = 16
@@ -2706,8 +2706,8 @@ ground.slidetime = 20 + var(12) * 3
 ground.hittime  = 20 + var(12) * 3
 ground.velocity = -4.0, -8.0
 ground.cornerpush.veloff = 0
-guard.slidetime = 16
-guard.hittime = 16
+guard.slidetime = 18
+guard.hittime = 18
 guard.velocity = -6.0
 air.type = High
 air.velocity = -4.0, -8.0
@@ -2843,8 +2843,8 @@ ground.slidetime = 20 + var(12) * 3
 ground.hittime  = 20 + var(12) * 3
 ground.velocity = -8.0, -5.0 
 ground.cornerpush.veloff = 0
-guard.slidetime = 16
-guard.hittime = 16
+guard.slidetime = 18
+guard.hittime = 18
 guard.velocity = -6.0
 air.type = High
 air.velocity = -8.0, -5.0
