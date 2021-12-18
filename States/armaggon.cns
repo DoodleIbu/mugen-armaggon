@@ -486,12 +486,12 @@ sparkxy = 0 * (var(7) := 45), 0 * (var(8) := -20)
 hitsound = S5,2
 guardsound = S6,0
 ground.type = Low
-ground.slidetime = 18 + var(12) * 3
-ground.hittime  = 18 + var(12) * 3
+ground.slidetime = 16 + var(12) * 3
+ground.hittime  = 16 + var(12) * 3
 ground.velocity = -4.2
 ground.cornerpush.veloff = 0
-guard.slidetime = 16
-guard.hittime = 16
+guard.slidetime = 14
+guard.hittime = 14
 guard.velocity = -4.2
 air.type = Low
 air.velocity = -2.0,-4.0
