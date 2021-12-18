@@ -46,7 +46,7 @@ Clsn2: 1
 ; Walking Forward
 [Begin Action 20]
 Clsn2Default: 1
-  Clsn2[0] = -20, -72, 30, 1
+  Clsn2[0] = -20, -72, 26, 1
 20,0, 0,0, 6
 20,1, 0,0, 6
 20,2, 0,0, 6
@@ -55,7 +55,7 @@ Clsn2Default: 1
 ; Walking Back
 [Begin Action 21]
 Clsn2Default: 1
-  Clsn2[0] = -20, -72, 30, 1
+  Clsn2[0] = -20, -72, 26, 1
 20,2, 0,0, 6
 20,1, 0,0, 6
 20,0, 0,0, 6
