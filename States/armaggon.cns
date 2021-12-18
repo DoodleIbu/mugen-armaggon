@@ -2494,7 +2494,7 @@ trigger1 = (var(40) := 1210 || 1) ;ID
 trigger1 = (var(10) - var(11) >= 0) && (var(40) != var(41))
 attr = C, SA
 animtype = Hard
-damage = floor(150 * fvar(1)), 37
+damage = floor(120 * fvar(1)), 30
 guardflag = M
 pausetime = 11,11
 sparkno = -1 + 0 * (var(5) := 7100)
@@ -2514,7 +2514,7 @@ air.type = High
 air.velocity = -1.0, -6.0
 air.hittime = 16383
 getpower = 0, 0
-givepower = 75, 37
+givepower = 60, 30
 fall = 1
 fall.recover = 0
 envshake.time = 8
@@ -2527,7 +2527,7 @@ trigger1 = (var(40) := 1211 || 1) ;ID
 trigger1 = (var(10) - var(11) >= 0) && (var(40) != var(41))
 attr = A, SA
 animtype = Hard
-damage = floor(120 * fvar(1)), 30
+damage = floor(100 * fvar(1)), 25
 guardflag = M
 pausetime = 11,11
 sparkno = -1 + 0 * (var(5) := 7100)
@@ -2547,7 +2547,7 @@ air.type = High
 air.velocity = -4.0, -6.0
 air.hittime = 16383
 getpower = 0, 0
-givepower = 60, 30
+givepower = 50, 25
 fall = 1
 fall.recover = 0
 envshake.time = 8
@@ -2613,13 +2613,13 @@ velset = 0,0
 
 [State 2000, BUWAH]
 type = PlaySnd
-trigger1 = Time = 10
+trigger1 = Time = 8
 value = S0,0
 channel = 0
 
 [State 2000]
 type = PlaySnd
-trigger1 = Time = 18
+trigger1 = Time = 11
 value = S4,2
 channel = 1
 
@@ -2655,7 +2655,7 @@ trigger1 = AnimElemTime(7) >= 0
 ; Summon the wave.
 [State 2000]
 type = PlaySnd
-trigger1 = AnimElemTime(3) = 0
+trigger1 = AnimElemTime(2) = 0
 value = S2000,0
 channel = 3
 
@@ -2695,7 +2695,7 @@ attr = A, HA
 animtype = Hard
 damage = floor(240 * fvar(1)), 60
 guardflag = M
-pausetime = 15,15
+pausetime = 18,18
 sparkno = -1 + 0 * (var(5) := 7100)
 guard.sparkno = -1 + 0 * (var(6) := 7200)
 sparkxy = 0 * (var(7) := ifelse(AnimElemTime(7) < 0, 15, -10)), 0 * (var(8) := ifelse(AnimElemTime(7) < 0, -60, -105))
