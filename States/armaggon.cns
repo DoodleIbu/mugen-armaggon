@@ -1920,7 +1920,7 @@ ignorehitpause = 1
 [State 1150]
 type = VelSet
 trigger1 = Time = 0 
-x = ifelse(root,stateno = 1100, 4.5, 6)
+x = ifelse(root,stateno = 1100, 4, 6)
 
 [State 1150]
 type = HitDef
@@ -1962,7 +1962,7 @@ var(10) = 0
 [State 1150]
 type = ParentVarSet
 trigger1 = MoveHit = 1
-fvar(0) = root,fvar(0) - 0.05
+fvar(0) = root,fvar(0) - 0.10
 
 ; Create hitsparks.
 [State 1150, Create Hit/Guard Spark]
@@ -2102,7 +2102,7 @@ persistent = 0
 [State 1160]
 type = ParentVarSet
 trigger1 = MoveHit = 1
-fvar(0) = root,fvar(0) - 0.05
+fvar(0) = root,fvar(0) - 0.10
 ignorehitpause = 1
 persistent = 0
 
@@ -2864,7 +2864,7 @@ var(10) = 0
 [State 2051]
 type = ParentVarSet
 trigger1 = MoveHit = 1
-fvar(0) = root,fvar(0) - 0.05
+fvar(0) = root,fvar(0) - 0.10
 
 ; Crappy hack to get previous frame CH value.
 [State 2051]
