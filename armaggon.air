@@ -548,7 +548,7 @@ Clsn2: 1
 ; Yuuei Zutsuki
 [Begin Action 1000]
 Clsn2Default: 1
-  Clsn2[0] = -63, -60, 53, -33
+  Clsn2[0] = -52, -60, 53, -33
 1000,0, 0,0, 6
 LoopStart
 Clsn1Default: 1
