@@ -3,6 +3,7 @@
 ; =======
 
 ;var(0)  - Cyclone Wave projectile count
+;var(1)  - Yuuei Zutsuki y-velocity check
 
 ;var(5)  - Hit spark
 ;var(6)  - Guard spark
@@ -1635,7 +1636,7 @@ value = 0
 ctrl = 1
 
 ;---------------------------------------------------------------------------
-; Yuuei Zutsuki (horizontal foot dive)
+; Yuuei Zutsuki
 [Statedef 1000]
 type    = A
 movetype= A
@@ -1643,31 +1644,56 @@ physics = N
 ctrl = 0
 anim = 1000
 sprpriority = 2
-velset = 0,0
+
+[State 1000, Are we going up?]
+type = VarSet
+trigger1 = Time = 0
+trigger1 = Vel Y < 0
+var(1) = 1
+
+[State 1000, Or are we going down?]
+type = VarSet
+trigger1 = Time = 0
+trigger1 = Vel Y >= 0
+var(1) = 0
+
+[State 1000, Rise if too low]
+type = PosAdd
+trigger1 = var(1) = 1
+trigger1 = AnimElemTime(2) < 0
+trigger1 = Pos Y >= -30
+y = -5
+
+[State 1000, Stall in air]
+type = VelSet
+trigger1 = Time = 0
+x = 0
+y = 0
 
 [State 1000, BUWAH]
 type = PlaySnd
-trigger1 = Time = 3
+trigger1 = Time = 5
 value = S0,0
 channel = 0
 
 [State 1000]
 type = PlaySnd
-trigger1 = Time = 3
+trigger1 = Time = 5
 value = S1000,0
 channel = 2
 
 ; Yuuei Zutsuki goes through opponents until a certain height.
 [State 1000]
 type = PlayerPush
+trigger1 = AnimElemTime(2) >= 0
 trigger1 = Pos Y < -20
 value = 0
 
 [State 1000]
 type = VelSet
 trigger1 = AnimElemTime(2) = 0
-x = 5.4
-y = 1.8
+x = 5.7
+y = 1.9
 
 [State 1000]
 type = HitDef

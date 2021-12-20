@@ -275,7 +275,6 @@ type = ChangeState
 value = 1000
 triggerall = command = "y" && command = "holddown" || var(20) = 410
 triggerall = statetype = A
-triggerall = Pos Y < -25 || Vel Y >= 0
 trigger1 = ctrl
 
 ;---------------------------------------------------------------------------
