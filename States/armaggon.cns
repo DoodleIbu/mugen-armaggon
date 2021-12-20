@@ -1661,8 +1661,8 @@ var(1) = 0
 type = PosAdd
 trigger1 = var(1) = 1
 trigger1 = AnimElemTime(2) < 0
-trigger1 = Pos Y >= -30
-y = -5
+trigger1 = Pos Y >= -35
+y = ifelse(Pos Y - 5 < -35, -35 - Pos Y, -5)
 
 [State 1000, Stall in air]
 type = VelSet
