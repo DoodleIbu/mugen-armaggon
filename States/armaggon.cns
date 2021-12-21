@@ -1972,7 +1972,7 @@ attr = S, SP
 animtype = Hard
 damage = floor(100 * root,fvar(1)), 25
 guardflag = M
-pausetime = 0,11
+pausetime = 0,7
 sparkno = -1 + 0 * (var(5) := 7100)
 guard.sparkno = -1 + 0 * (var(6) := 7200)
 sparkxy = 0 * (var(7) := 10), 0 * (var(8) := -18)
@@ -2104,7 +2104,7 @@ attr = S, SP
 animtype = Hard
 damage = floor(80 * root,fvar(1)), 20
 guardflag = M
-pausetime = 4 * (var(0) = 1),11
+pausetime = 4 * (var(0) = 1),7
 sparkno = -1 + 0 * (var(5) := 7100)
 guard.sparkno = -1 + 0 * (var(6) := 7200)
 sparkxy = 0 * (var(7) := 10), 0 * (var(8) := -18)
