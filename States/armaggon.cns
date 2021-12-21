@@ -22,8 +22,9 @@
 ;var(30) - Throw condition
 ;	 -1 if cannot throw
 ;	 0 if can throw
-;	 Ticks down from 10.
+;	 Ticks down from 8.
 ;var(32) - Throw direction
+;var(33) - Is throw a counter hit?
 
 ;var(40) - Hit ID
 ;var(41) - Chain ID
@@ -331,6 +332,12 @@ trigger1 = Time = 2
 value = S4,2
 channel = 1
 
+; Can't tech throw if it's a counter hit
+[State 215]
+type = VarSet
+trigger1 = AnimElemTime(1) = 0
+var(33) = var(12)
+
 ; Throw attempt
 [State 215]
 type = HitDef
@@ -523,6 +530,12 @@ ctrl = 0
 velset = 0,0
 anim = 240
 sprpriority = 2
+
+; Can't tech throw if it's a counter hit
+[State 240]
+type = VarSet
+trigger1 = AnimElemTime(1) = 0
+var(33) = var(12)
 
 ; Throw attempt
 [State 240]
@@ -1105,6 +1118,7 @@ channel = 0
 [State 800]
 type = ChangeState
 trigger1 = Time < 10
+trigger1 = var(33) = 0
 trigger1 = target, command = "holdfwd" || target, command = "holdback"
 trigger1 = target, command != "holdup" && target, command != "holddown"
 trigger1 = target, command = "y" || target, command = "b"
@@ -1130,7 +1144,7 @@ pos = 20, 0
 [State 800]
 type = TargetLifeAdd
 trigger1 = AnimElem = 4
-value = -150
+value = -120
 
 [State 800]
 type = TargetState
@@ -1140,12 +1154,12 @@ value = 806
 [State 800, TargetPowerAdd]
 type = TargetPowerAdd
 trigger1 = AnimElem = 4
-value = 112
+value = 90
 
 [State 800, PowerAdd]
 type = PowerAdd
 trigger1 = AnimElem = 4
-value = 225
+value = 180
 
 [State 800]
 type = EnvShake
@@ -1274,6 +1288,7 @@ channel = 0
 [State 810]
 type = ChangeState
 trigger1 = Time < 10
+trigger1 = var(33) = 0
 trigger1 = target, command = "holdfwd" || target, command = "holdback"
 trigger1 = target, command != "holdup" && target, command != "holddown"
 trigger1 = target, command = "y" || target, command = "b"
@@ -1324,7 +1339,7 @@ value = 1
 [State 810]
 type = TargetLifeAdd
 trigger1 = AnimElem = 3
-value = -120
+value = -100
 
 [State 810]
 type = TargetState
@@ -1334,12 +1349,12 @@ value = 816
 [State 810, TargetPowerAdd]
 type = TargetPowerAdd
 trigger1 = AnimElem = 3
-value = 90
+value = 75
 
 [State 810, PowerAdd]
 type = PowerAdd
 trigger1 = AnimElem = 3
-value = 180
+value = 150
 
 [State 810]
 type = ChangeState

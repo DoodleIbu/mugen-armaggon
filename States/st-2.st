@@ -215,6 +215,6 @@ ignorehitpause = 1
 [State -1, DTCB]
 type = DisplayToClipboard
 trigger1 = 1
-text = "Juggle: %d Move: %d Throw Tick: %d HPT: %d var(42): %d fvar(1): %f"
-params = var(10), var(11), var(30), HitPauseTime, var(42), fvar(1)
+text = "Juggle: %d Move: %d Throw Tick: %d HPT: %d var(33): %d fvar(1): %f"
+params = var(10), var(11), var(30), HitPauseTime, var(33), fvar(1)
 ignorehitpause = 1
