@@ -619,15 +619,18 @@ Clsn2: 1
 
 ; Cyclone Wave Projectile
 [Begin Action 1150]
-Clsn1Default: 1
-  Clsn1[0] = 0, -14, 20, -1
+Clsn1: 1
+  Clsn1[0] = -22, -15, 19, 0
 Clsn2Default: 1
   Clsn2[0] = -27, -23, 29, 8
 1150,0, 0,0, 1
--1,0, 0,0, 10
+LoopStart
+Clsn1Default: 1
+  Clsn1[0] = 0, -15, 19, 0
 -1,0, 0,0, 1
 1150,1, 0,0, 1
 -1,0, 0,0, 1
+1150,0, 0,0, 1
 
 ; Cyclone Wave (inactive)
 [Begin Action 1152]
