@@ -1761,13 +1761,13 @@ velset = 0,0
 
 [State 1100, BUWAH]
 type = PlaySnd
-trigger1 = Time = 13
+trigger1 = Time = 12
 value = S0,0
 channel = 0
 
 [State 1100]
 type = PlaySnd
-trigger1 = Time = 13
+trigger1 = Time = 12
 value = S1100,0
 channel = 1
 
@@ -1810,13 +1810,13 @@ velset = 0,0
 
 [State 1105, BUWAH]
 type = PlaySnd
-trigger1 = Time = 10
+trigger1 = Time = 9
 value = S0,0
 channel = 0
 
 [State 1105]
 type = PlaySnd
-trigger1 = Time = 10
+trigger1 = Time = 9
 value = S1100,0
 channel = 1
 
@@ -1979,13 +1979,13 @@ sparkxy = 0 * (var(7) := 10), 0 * (var(8) := -18)
 hitsound   = S5,2
 guardsound = S6,2
 ground.type = High
-ground.slidetime = 18 + root,var(12) * 3
-ground.hittime  = 18 + root,var(12) * 3
-ground.velocity = -5.5
+ground.slidetime = 16 + root,var(12) * 3
+ground.hittime  = 16 + root,var(12) * 3
+ground.velocity = -6.5
 ground.cornerpush.veloff = 0
-guard.slidetime = 16
-guard.hittime = 16
-guard.velocity = -6.0
+guard.slidetime = 14
+guard.hittime = 14
+guard.velocity = -6.5
 air.type = High
 air.velocity = -3.0, -5.0
 air.hittime = 16383
@@ -2111,13 +2111,13 @@ sparkxy = 0 * (var(7) := 10), 0 * (var(8) := -18)
 hitsound   = S5,2
 guardsound = S6,2
 ground.type = High
-ground.slidetime = 18 + root,var(12) * 3
-ground.hittime  = 18 + root,var(12) * 3
-ground.velocity = -5.5
+ground.slidetime = 16 + root,var(12) * 3
+ground.hittime  = 16 + root,var(12) * 3
+ground.velocity = -6.5
 ground.cornerpush.veloff = 0
-guard.slidetime = 16
-guard.hittime = 16
-guard.velocity = -6.0
+guard.slidetime = 14
+guard.hittime = 14
+guard.velocity = -6.5
 air.type = High
 air.velocity = -3.0, -5.0
 air.hittime = 16383
