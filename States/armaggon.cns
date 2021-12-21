@@ -354,6 +354,7 @@ p2facing = 1
 p1stateno = 800
 p2stateno = 805
 guard.dist = 0
+priority = 1, Miss
 
 [State 215]
 type = HitDef
@@ -553,6 +554,7 @@ p2facing = 1
 p1stateno = 810
 p2stateno = 815
 guard.dist = 0
+priority = 1, Miss
 
 [State 240]
 type = PlaySnd
