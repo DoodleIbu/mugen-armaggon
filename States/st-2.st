@@ -1,6 +1,12 @@
 [Statedef -2]
 
 ;---------------------------------------------------------------------------
+[State -2, Disallow air blocking]
+type = AssertSpecial
+trigger1 = 1
+flag = noairguard
+
+;---------------------------------------------------------------------------
 ; Projectile count correction.
 [State -2, Projectile Count Correction]
 type = VarSet

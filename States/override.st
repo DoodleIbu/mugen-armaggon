@@ -102,7 +102,6 @@ trigger1 = Time < 2
 trigger1 = prevstateno = [600, 700] || prevstateno = 1000
 flag = nostandguard
 flag2 = nocrouchguard
-flag3 = noairguard
 
 [State 52, No walking]
 type = AssertSpecial
