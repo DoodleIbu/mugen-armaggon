@@ -31,7 +31,7 @@ Throws can be teched out of using b/f + C/D.
 
 ### Other
 - A+B: Blowback attack (costs 1000 power)
-  - A quick invincible attack that launches the opponent away but deals no damage. Can be done while in blockstun, but starts up slower if done in blockstun.
+  - A quick invincible attack that launches the opponent away but deals no damage. Can be done while in blockstun, but starts up slower if used as a guard cancel.
 - Start: Taunt
 
 ## Additional notes
@@ -40,11 +40,6 @@ Throws can be teched out of using b/f + C/D.
 
 ## TODOs
 
-- Random balance changes here and there
-  - Review CH state on moves
-- Look into some unimplemented mechanics
-  - Trip guard (or the lack thereof)
-  - Guaranteed throw punishes
 - Fixing projectile sound when it gets nullified by other projectiles
 - Rip TMNT:TF hit and guard sparks and replace the current ones
 - Clean up juggle code

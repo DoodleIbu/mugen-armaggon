@@ -96,6 +96,14 @@ type = VelSet
 trigger1 = abs(vel x) < Const(movement.stand.friction.threshold)
 x = 0
 
+[State 52, Disallow blocking for 2F if normal has been used in air]
+type = AssertSpecial
+trigger1 = Time < 2
+trigger1 = prevstateno = [600, 700]
+flag = nostandguard
+flag2 = nocrouchguard
+flag3 = noairguard
+
 [State 52, No walking]
 type = AssertSpecial
 trigger1 = Time < 3
