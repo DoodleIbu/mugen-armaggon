@@ -73,7 +73,7 @@ walk.fwd  = 2.6
 walk.back = -2.2
 run.fwd  = 0,0
 run.back = 0,0
-jump.neu = 0,-10.5
+jump.neu = 0,-10.0
 jump.back = -2.6
 jump.fwd = 2.6
 air.gethit.groundrecover = -.15,-3.5
@@ -85,7 +85,7 @@ air.gethit.airrecover.up = -2
 air.gethit.airrecover.down = 1.5
 
 [Movement]
-yaccel = .65
+yaccel = .6
 stand.friction = .85
 crouch.friction = .82
 stand.friction.threshold = 2
@@ -1979,12 +1979,12 @@ sparkxy = 0 * (var(7) := 10), 0 * (var(8) := -18)
 hitsound   = S5,2
 guardsound = S6,2
 ground.type = High
-ground.slidetime = 16 + root,var(12) * 3
-ground.hittime  = 16 + root,var(12) * 3
+ground.slidetime = 18 + root,var(12) * 3
+ground.hittime  = 18 + root,var(12) * 3
 ground.velocity = -6.5
 ground.cornerpush.veloff = 0
-guard.slidetime = 14
-guard.hittime = 14
+guard.slidetime = 16
+guard.hittime = 16
 guard.velocity = -6.5
 air.type = High
 air.velocity = -3.0, -5.0
@@ -2111,12 +2111,12 @@ sparkxy = 0 * (var(7) := 10), 0 * (var(8) := -18)
 hitsound   = S5,2
 guardsound = S6,2
 ground.type = High
-ground.slidetime = 16 + root,var(12) * 3
-ground.hittime  = 16 + root,var(12) * 3
+ground.slidetime = 18 + root,var(12) * 3
+ground.hittime  = 18 + root,var(12) * 3
 ground.velocity = -6.5
 ground.cornerpush.veloff = 0
-guard.slidetime = 14
-guard.hittime = 14
+guard.slidetime = 16
+guard.hittime = 16
 guard.velocity = -6.5
 air.type = High
 air.velocity = -3.0, -5.0
@@ -2249,7 +2249,7 @@ physics = N
 type = VelSet
 trigger1 = AnimElemTime(4) = 0
 x = 3
-y = -9
+y = -8
 
 [State 1200]
 type = Gravity
@@ -2374,7 +2374,7 @@ physics = N
 type = VelSet
 trigger1 = AnimElemTime(4) = 0
 x = 2
-y = -12
+y = -10
 
 [State 1205]
 type = Gravity
@@ -2523,7 +2523,7 @@ physics = N
 type = VelSet
 trigger1 = AnimElemTime(4) = 0
 x = 1
-y = -13
+y = -11
 
 [State 1210]
 type = Gravity
