@@ -203,7 +203,7 @@ trigger1 = enemynear, stateno != 140
 trigger1 = (enemynear, ctrl && enemynear, time >= 1) || (enemynear, time >= 8)
 trigger2 = enemynear, movetype = A
 trigger3 = (enemynear, stateno != [0, 52]) && (enemynear, stateno != [150, 155]) && (enemynear, stateno != [5000, 5120])
-var(30) = 6
+var(30) = 5
 
 [State -2, Throws Disallowed]
 type = VarSet
