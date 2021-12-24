@@ -491,7 +491,7 @@ guardflag = L
 pausetime = 11,11
 sparkno = -1 + 0 * (var(5) := 7101)
 guard.sparkno = -1 + 0 * (var(6) := 7201)
-sparkxy = 0 * (var(7) := 60), 0 * (var(8) := 0)
+sparkxy = 0 * (var(7) := 58), 0 * (var(8) := -10)
 hitsound = S5,2
 guardsound = S6,0
 ground.type = Low
@@ -750,7 +750,7 @@ guardflag = L
 pausetime = 7,7
 sparkno = -1 + 0 * (var(5) := 7102)
 guard.sparkno = -1 + 0 * (var(6) := 7202)
-sparkxy = 0 * (var(7) := 70), 0 * (var(8) := -10)
+sparkxy = 0 * (var(7) := 70), 0 * (var(8) := -17)
 hitsound = S5,1
 guardsound = S6,1
 ground.type = Low
@@ -808,7 +808,7 @@ guardflag = L
 pausetime = 11,11
 sparkno = -1 + 0 * (var(5) := 7101)
 guard.sparkno = -1 + 0 * (var(6) := 7201)
-sparkxy = 0 * (var(7) := 75), 0 * (var(8) := -10)
+sparkxy = 0 * (var(7) := 75), 0 * (var(8) := -17)
 hitsound   = S5,3
 guardsound = S6,1
 ground.type = Trip
@@ -1020,7 +1020,7 @@ guardflag = H
 pausetime = 7,7
 sparkno = -1 + 0 * (var(5) := 7102)
 guard.sparkno = -1 + 0 * (var(6) := 7202)
-sparkxy = 0 * (var(7) := 31), 0 * (var(8) := -34)
+sparkxy = 0 * (var(7) := 26), 0 * (var(8) := -44)
 hitsound   = S5,1
 guardsound = S6,1
 ground.type = High
@@ -1072,7 +1072,7 @@ guardflag = H
 pausetime = 11,11
 sparkno = -1 + 0 * (var(5) := 7101)
 guard.sparkno = -1 + 0 * (var(6) := 7201)
-sparkxy = 0 * (var(7) := 67), 0 * (var(8) := -50)
+sparkxy = 0 * (var(7) := 67), 0 * (var(8) := -58)
 hitsound   = S5,2
 guardsound = S6,0
 ground.type = High
@@ -1133,7 +1133,7 @@ anim = 7001
 ID = 7001
 sprpriority = 5
 postype = p1
-pos = ceil(31 * const(size.xscale)), ceil(-44 * const(size.yscale))
+pos = ceil(28 * const(size.xscale)), ceil(-51 * const(size.yscale))
 pausemovetime = 60
 ownpal = 1
 scale = 0.5, 0.5
@@ -1176,7 +1176,7 @@ anim = 7101
 ID = 7000
 sprpriority = 5
 postype = p1
-pos = ceil(18 * const(size.xscale)), ceil(-75 * const(size.yscale))
+pos = ceil(16 * const(size.xscale)), ceil(-62 * const(size.yscale))
 pausemovetime = 60
 ownpal = 1
 scale = 0.5, 0.5
@@ -1318,7 +1318,7 @@ anim = 7001
 ID = 7001
 sprpriority = 5
 postype = p1
-pos = ceil(31 * const(size.xscale)), ceil(-44 * const(size.yscale))
+pos = ceil(28 * const(size.xscale)), ceil(-51 * const(size.yscale))
 pausemovetime = 60
 ownpal = 1
 scale = 0.5, 0.5
@@ -1724,7 +1724,7 @@ guardflag = M
 pausetime = 11,11
 sparkno = -1 + 0 * (var(5) := 7101)
 guard.sparkno = -1 + 0 * (var(6) := 7201)
-sparkxy = 0 * (var(7) := 50), 0 * (var(8) := -30)
+sparkxy = 0 * (var(7) := 50), 0 * (var(8) := -35)
 hitsound   = S5,2
 guardsound = S6,0
 ground.type = High
