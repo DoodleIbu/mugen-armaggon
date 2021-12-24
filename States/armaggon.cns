@@ -368,7 +368,7 @@ guardflag = M
 pausetime = 11,11
 sparkno = -1 + 0 * (var(5) := 7101)
 guard.sparkno = -1 + 0 * (var(6) := 7201)
-sparkxy = 0 * (var(7) := 47), 0 * (var(8) := -55)
+sparkxy = 0 * (var(7) := 47), 0 * (var(8) := -65)
 hitsound   = S5,2
 guardsound = S6,0
 ground.type = High
@@ -432,7 +432,7 @@ guardflag = M
 pausetime = 7, 7
 sparkno = -1 + 0 * (var(5) := 7102)
 guard.sparkno = -1 + 0 * (var(6) := 7202)
-sparkxy = 0 * (var(7) := 33), 0 * (var(8) := -45)
+sparkxy = 0 * (var(7) := 28), 0 * (var(8) := -54)
 hitsound = S5, 1
 guardsound = S6, 1
 ground.type = High
@@ -574,7 +574,7 @@ guardflag = M
 pausetime = 11,11
 sparkno = -1 + 0 * (var(5) := 7101)
 guard.sparkno = -1 + 0 * (var(6) := 7201)
-sparkxy = 0 * (var(7) := 61), 0 * (var(8) := -65)
+sparkxy = 0 * (var(7) := 58), 0 * (var(8) := -75)
 hitsound   = S5,3
 guardsound = S6,0
 ground.type = High
@@ -864,7 +864,7 @@ guardflag = H
 pausetime = 7,7
 sparkno = -1 + 0 * (var(5) := 7102)
 guard.sparkno = -1 + 0 * (var(6) := 7202)
-sparkxy = 0 * (var(7) := 33), 0 * (var(8) := -65)
+sparkxy = 0 * (var(7) := 32), 0 * (var(8) := -70)
 hitsound   = S5,0
 guardsound = S6,0
 ground.type = High
@@ -916,7 +916,7 @@ guardflag = H
 pausetime = 7,7
 sparkno = -1 + 0 * (var(5) := 7102)
 guard.sparkno = -1 + 0 * (var(6) := 7202)
-sparkxy = 0 * (var(7) := 43), 0 * (var(8) := -48)
+sparkxy = 0 * (var(7) := 43), 0 * (var(8) := -52)
 hitsound   = S5,0
 guardsound = S6,0
 ground.type = High
@@ -968,7 +968,7 @@ guardflag = H
 pausetime = 11,11
 sparkno = -1 + 0 * (var(5) := 7101)
 guard.sparkno = -1 + 0 * (var(6) := 7201)
-sparkxy = 0 * (var(7) := 43), 0 * (var(8) := -48)
+sparkxy = 0 * (var(7) := 43), 0 * (var(8) := -52)
 hitsound   = S5,2
 guardsound = S6,0
 ground.type = High
@@ -1975,7 +1975,7 @@ guardflag = M
 pausetime = 0,7
 sparkno = -1 + 0 * (var(5) := 7100)
 guard.sparkno = -1 + 0 * (var(6) := 7200)
-sparkxy = 0 * (var(7) := 25), 0 * (var(8) := 0)
+sparkxy = 0 * (var(7) := 25), 0 * (var(8) := -7)
 hitsound   = S5,2
 guardsound = S6,2
 ground.type = High
@@ -2107,7 +2107,7 @@ guardflag = M
 pausetime = 4 * (var(0) = 1),7
 sparkno = -1 + 0 * (var(5) := 7100)
 guard.sparkno = -1 + 0 * (var(6) := 7200)
-sparkxy = 0 * (var(7) := 25), 0 * (var(8) := 0)
+sparkxy = 0 * (var(7) := 25), 0 * (var(8) := -7)
 hitsound   = S5,2
 guardsound = S6,2
 ground.type = High
@@ -2268,7 +2268,7 @@ guardflag = M
 pausetime = 11,11
 sparkno = -1 + 0 * (var(5) := 7100)
 guard.sparkno = -1 + 0 * (var(6) := 7200)
-sparkxy = 0 * (var(7) := 30), 0 * (var(8) := -40)
+sparkxy = 0 * (var(7) := 28), 0 * (var(8) := -50)
 hitsound   = S5,2
 guardsound = S6,0
 ground.type = High
@@ -2302,7 +2302,7 @@ guardflag = M
 pausetime = 11,11
 sparkno = -1 + 0 * (var(5) := 7100)
 guard.sparkno = -1 + 0 * (var(6) := 7200)
-sparkxy = 0 * (var(7) := 5), 0 * (var(8) := -85)
+sparkxy = 0 * (var(7) := 0), 0 * (var(8) := -100)
 hitsound   = S5,2
 guardsound = S6,0
 ground.type = High
@@ -2393,7 +2393,7 @@ guardflag = M
 pausetime = 11,11
 sparkno = -1 + 0 * (var(5) := 7100)
 guard.sparkno = -1 + 0 * (var(6) := 7200)
-sparkxy = 0 * (var(7) := 30), 0 * (var(8) := -40)
+sparkxy = 0 * (var(7) := 28), 0 * (var(8) := -50)
 hitsound   = S5,2
 guardsound = S6,0
 ground.type = High
@@ -2426,7 +2426,7 @@ guardflag = M
 pausetime = 11,11
 sparkno = -1 + 0 * (var(5) := 7100)
 guard.sparkno = -1 + 0 * (var(6) := 7200)
-sparkxy = 0 * (var(7) := 5), 0 * (var(8) := -85)
+sparkxy = 0 * (var(7) := 0), 0 * (var(8) := -100)
 hitsound   = S5,2
 guardsound = S6,0
 ground.type = High
@@ -2542,7 +2542,7 @@ guardflag = M
 pausetime = 11,11
 sparkno = -1 + 0 * (var(5) := 7100)
 guard.sparkno = -1 + 0 * (var(6) := 7200)
-sparkxy = 0 * (var(7) := 30), 0 * (var(8) := -40)
+sparkxy = 0 * (var(7) := 28), 0 * (var(8) := -50)
 hitsound   = S5,2
 guardsound = S6,0
 ground.type = High
@@ -2575,7 +2575,7 @@ guardflag = M
 pausetime = 11,11
 sparkno = -1 + 0 * (var(5) := 7100)
 guard.sparkno = -1 + 0 * (var(6) := 7200)
-sparkxy = 0 * (var(7) := 5), 0 * (var(8) := -85)
+sparkxy = 0 * (var(7) := 0), 0 * (var(8) := -100)
 hitsound   = S5,2
 guardsound = S6,0
 ground.type = High
@@ -2817,7 +2817,7 @@ type = Explod
 trigger1 = HitPauseTime && var(5) > 0 && var(6) > 0
 anim = ifelse(MoveHit, var(5), var(6))
 ID = 7000
-sprpriority = 5
+sprpriority = 6
 postype = p1
 pos = ceil(cond(P2Dist X < var(7), P2Dist X, var(7)) * const(size.xscale)), ceil(var(8) * const(size.yscale))
 pausemovetime = 60
