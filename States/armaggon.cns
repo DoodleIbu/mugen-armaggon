@@ -1136,7 +1136,7 @@ postype = p1
 pos = ceil(29 * const(size.xscale)), ceil(-53 * const(size.yscale))
 pausemovetime = 60
 ownpal = 1
-scale = 0.5, 0.5
+scale = 1, 1
 
 [State 800]
 type = TargetBind
@@ -1321,7 +1321,7 @@ postype = p1
 pos = ceil(29 * const(size.xscale)), ceil(-53 * const(size.yscale))
 pausemovetime = 60
 ownpal = 1
-scale = 0.5, 0.5
+scale = 1, 1
 
 [State 810]
 type = TargetBind
@@ -1444,7 +1444,7 @@ anim = 7000
 ID = 7000
 sprpriority = 5
 postype = p1
-pos = 10, -40
+pos = 0, -40
 pausemovetime = 60
 ownpal = 1
 facing = -1
