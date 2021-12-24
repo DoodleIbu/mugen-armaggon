@@ -1443,8 +1443,8 @@ trigger1 = Time = 0
 anim = 7000
 ID = 7000
 sprpriority = 5
-postype = p2
-pos = 25 + target,const(size.mid.pos.x), -30 + target,const(size.mid.pos.y)
+postype = p1
+pos = 10, -40
 pausemovetime = 60
 ownpal = 1
 facing = -1
