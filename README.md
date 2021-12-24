@@ -35,11 +35,8 @@ Throws can be teched out of using b/f + C/D.
 - Start: Taunt
 
 ## Additional notes
-
 - Counter hits do additional damage and hitstun. They also cause a single-hit juggle state if the opponent is launched in the air. This is required for getting full damage out of Armaggon's super.
 
 ## TODOs
-
 - Fixing projectile sound when it gets nullified by other projectiles
-- Rip TMNT:TF hit and guard sparks and replace the current ones
 - Clean up juggle code
