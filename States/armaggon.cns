@@ -285,7 +285,7 @@ guardflag = M
 pausetime = 11,11
 sparkno = -1 + 0 * (var(5) := 7101)
 guard.sparkno = -1 + 0 * (var(6) := 7201)
-sparkxy = 0 * (var(7) := 65), 0 * (var(8) := -30)
+sparkxy = 0 * (var(7) := 62), 0 * (var(8) := -32)
 hitsound = s5,2
 guardsound = s6,0
 ground.type = High
@@ -633,7 +633,7 @@ guardflag = M
 pausetime = 7, 7
 sparkno = -1 + 0 * (var(5) := 7102)
 guard.sparkno = -1 + 0 * (var(6) := 7202)
-sparkxy = 0 * (var(7) := 65), 0 * (var(8) := -30)
+sparkxy = 0 * (var(7) := 65), 0 * (var(8) := -38)
 hitsound = S5,0
 guardsound = S6,0
 ground.type = High
@@ -692,7 +692,7 @@ guardflag = M
 pausetime = 11,11
 sparkno = -1 + 0 * (var(5) := 7101)
 guard.sparkno = -1 + 0 * (var(6) := 7201)
-sparkxy = 0 * (var(7) := 50), 0 * (var(8) := -45)
+sparkxy = 0 * (var(7) := 39), 0 * (var(8) := -60)
 hitsound   = S5,2
 guardsound = S6,0
 ground.type = High
