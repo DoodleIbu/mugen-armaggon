@@ -23,19 +23,6 @@ x = 0
 type    = A
 physics = A
 
-[State 50]
-type = Explod
-trigger1 = Time = 0
-anim = 8000
-ID = 8000
-sprpriority = 5
-postype = p1
-pos = -12, 1
-pausemovetime = 60
-ownpal = 1
-scale = 0.5, 0.5
-ignorehitpause = 1
-
 [State 50, 1]
 type = VarSet
 trigger1 = Time = 0
