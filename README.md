@@ -40,3 +40,7 @@ Throws can be teched out of using b/f + C/D.
 ## TODOs
 - Fixing projectile sound when it gets nullified by other projectiles
 - Clean up juggle code
+
+## Credits
+- The Great Matsutzu for the Armaggon base
+- P.O.T.S., Rajaa for code I learned/copied from
