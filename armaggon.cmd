@@ -493,7 +493,7 @@ trigger1 = ctrl
 [State -1]
 type = ChangeState
 value = 630
-triggerall = command = "a" || var(20) = 230 || var(20) = 230
+triggerall = command = "a" || var(20) = 230 || var(20) = 430
 triggerall = statetype = A
 trigger1 = ctrl
 
