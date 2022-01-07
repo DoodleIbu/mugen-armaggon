@@ -449,7 +449,7 @@ value = 1
 type = NotHitBy
 trigger1 = AnimTime = 0
 value = , NT,ST,HT
-time = 5
+time = 6
 
 [State 5120, 6] ;Can't be hit right after getting up (short time)
 type = NotHitBy

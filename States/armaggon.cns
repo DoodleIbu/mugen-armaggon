@@ -22,7 +22,7 @@
 ;var(30) - Throw condition
 ;	 -1 if cannot throw
 ;	 0 if can throw
-;	 Ticks down from 5.
+;	 Ticks down from 6.
 ;var(32) - Throw direction
 ;var(33) - Is throw a counter hit?
 
